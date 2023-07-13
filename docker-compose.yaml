@@ -1,7 +1,6 @@
 version: '3.9'
-
- services:
+services:
    web:
-     image: abhisek6/django_portfolio:latest
+     image: "abhisek6/django_portfolio:latest"
      ports:
        - "8000:8000"
